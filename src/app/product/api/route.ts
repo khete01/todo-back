@@ -1,6 +1,5 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import { connectDb } from "../../../../connectDb";
-import { TodoModel } from "../../../../models/model";
+import connectDb from "../../../../connectDb";
+import TodoModel from "../../../../models/model";
 
 // export const GET = async (req: Request, res: Response) => {
 //   await connectDb();

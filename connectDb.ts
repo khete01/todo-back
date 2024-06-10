@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const uri = "mongodb+srv://UB:Zxcv1001@Tu@cluster0.fq5chxs.mongodb.net/";
 
@@ -10,4 +10,4 @@ const connectDb = async () => {
     console.log(err);
   }
 };
-export { connectDb };
+export default connectDb ;
