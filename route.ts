@@ -1,6 +1,5 @@
 import connectDb from "../../../../libs/connectDb";
-
-import TodoModel from "../../../../models/model";
+import TodoModel from "../,,/../../../../models/model";
 
 export const GET = async (req: Request, res: Response) => {
   await connectDb();
