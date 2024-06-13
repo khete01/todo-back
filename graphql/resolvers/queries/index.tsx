@@ -1,1 +1,2 @@
-export * from "./query1"
+export * from "./getTodos";
+export * from "./getTodo";
