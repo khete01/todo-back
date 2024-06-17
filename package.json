@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 8080",
-    "build": "next build",
+    "build": "next build && npm run codegen",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,7 +12,7 @@
     "@apollo/server": "^4.10.4",
     "@as-integrations/next": "^3.0.0",
     "@graphql-codegen/cli": "^5.0.2",
-    "@graphql-codegen/client-preset": "^4.2.6",
+    "@graphql-codegen/client-preset": "^4.3.0",
     "@graphql-codegen/introspection": "^4.0.3",
     "@graphql-codegen/typescript-react-query": "^6.1.0",
     "@graphql-tools/merge": "^9.0.4",
